@@ -93,7 +93,7 @@ body {
 }
 
 @keyframes anim-1 {
-  0%,{
+  0%,2%{
     left: -100%;
     opacity: 0;
   }
@@ -111,7 +111,7 @@ body {
 
 @keyframes anim-2 {
   0%,
-  14.28%
+  16.28%
    {
     left: -100%;
     opacity: 0;
@@ -130,7 +130,7 @@ body {
 
 @keyframes anim-3 {
   0%,
-  28.56% {
+  30.56% {
     left: -100%;
     opacity: 0;
   }
@@ -147,7 +147,7 @@ body {
 }
 @keyframes anim-4 {
   0%,
-  42.84% {
+  44.84% {
     left: -100%;
     opacity: 0;
   }
@@ -164,7 +164,7 @@ body {
 }
 @keyframes anim-5 {
   0%,
-  57.12% {
+  59.12% {
     left: -100%;
     opacity: 0;
   }
@@ -181,7 +181,7 @@ body {
 }
 @keyframes anim-6 {
   0%,
-  71.4% {
+  73.4% {
     left: -100%;
     opacity: 0;
   }
@@ -198,7 +198,7 @@ body {
 }
 @keyframes anim-7 {
   0%,
-  85.68% {
+  87.68% {
     left: -100%;
     opacity: 0;
   }
