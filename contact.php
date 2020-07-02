@@ -11,5 +11,8 @@ if (isset($_POST['submit'])){
 	$txt = "You have received an e-mail from ".$name.".\n\n".$massage;
 	
 	mail($mailTo, $subject, $txt, $headers);
-	header(alert("MASSAGE SENT"));
+	header("Location: index.php?mailsend");
+	alert("MASSAGE SENT!");
 }
+
+?>
