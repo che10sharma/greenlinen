@@ -718,7 +718,7 @@
       <div id="about" class="row container-fluid">
             <div class="col">
               <h2>Why us?</h2>
-            <p style="font-size: 15px;">
+            <p style="font-size: 15px; line-height: 0.7cm;">
               <strong>&bull;</strong> Competitive and reliable resource for your back-end sourcing from South East Asia.
               </br><strong>&bull;</strong> Experienced team with technical trainings for efficient and accurate executions.
               </br><strong>&bull;</strong> Pan Indian presence with vendor relationships across the subcontinent.
@@ -770,13 +770,14 @@
       <div id="details" class="row">
         <div id="box" class="col-md-6 col-sm-6">
           <span class="c-center"> 
+		  <br><br><br>
           <h2 class="content-title">Contact Us</h2>
           <p>C 5/12 Vasant Kunj, New Delhi-110070, INDIA</br>
             <span>Office open 9 A.M. to 6 P.M.</span>
           <br>Dr. Nidhi Shankar : nidhi@greenlinen.in | +91.98184.05575
           <br>Mr. Neeraj Bisht : neeraj@greenlinen.in | +91.99993.17017
 		  <br>
-<button type="button" class="btn btn-info btn-ripple" data-toggle="modal" data-target="#exampleModal" data-whatever="nidhi@greenlinen.in" style="margin-top: 6px;">Mail Us</button>
+<button type="button" class="btn btn-info btn-ripple" data-toggle="modal" data-target="#exampleModal" style="margin-top: 6px;">Mail Us</button>
 </p>
 </span>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -790,23 +791,27 @@
       </div>
       <div class="modal-body">
         <form>
+			<div class="form-group">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" placeholder="" class="form-control" name="recipient-name">
+          </div>
           <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="email" placeholder="example@example.com" class="form-control" id="recipient-name">
+            <label for="recipient-Id" class="col-form-label">Recipient:</label>
+            <input type="email" placeholder="example@example.com" class="form-control" name="recipient-Id">
           </div>
           <div class="form-group">
             <label for="subject" class="col-form-label">Subject:</label>
-            <input type="text" class="form-control" id="subject">
+            <input type="text" class="form-control" name="subject">
           </div>
           <div class="form-group">
             <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
+            <textarea class="form-control" name="message"></textarea>
           </div>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary" onclick="sendMail(); return false">Send message</button>
+        <button type="submit" name="submit" class="btn btn-primary">Send message</button>
       </div>
     </div>
   </div>

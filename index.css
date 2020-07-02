@@ -94,7 +94,7 @@ body {
 
 @keyframes anim-1 {
   0%,2%{
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   2%,
@@ -113,7 +113,7 @@ body {
   0%,
   14.28%
    {
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   16.28%,
@@ -131,7 +131,7 @@ body {
 @keyframes anim-3 {
   0%,
   28.56% {
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   30.56%,
@@ -148,7 +148,7 @@ body {
 @keyframes anim-4 {
   0%,
   42.84% {
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   44.84%,
@@ -165,7 +165,7 @@ body {
 @keyframes anim-5 {
   0%,
   57.12% {
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   59.12%,
@@ -182,7 +182,7 @@ body {
 @keyframes anim-6 {
   0%,
   71.4% {
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   73.4%,
@@ -199,7 +199,7 @@ body {
 @keyframes anim-7 {
   0%,
   85.68% {
-    left: -100%;
+    left: 0%;
     opacity: 0;
   }
   87.68%,
@@ -819,12 +819,6 @@ p.container {
   margin-bottom: 0;
   padding: 0;
 }
-#details span.c-center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 #manege h2 {
   padding-bottom: 0;
 }
@@ -873,7 +867,7 @@ p.container {
   object-fit: cover;
   height: 100%;
   width: 100%;
-  padding-top: 82px;
+  padding-top: 70px;
 }
 #us {
   background: #f1f1f1;
