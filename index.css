@@ -452,14 +452,14 @@ p {
   left: 0;
   z-index: 1;
   height: 100%;
-  width: 100%;
+  width: 50%;
   margin-left: 0;
   padding-left: 0;
 }
 #home-right p {
   font-size: 2.2rem;
   font-weight: bolder;
-  color: gray;
+  color: #353335;
   text-shadow: 0 1px 0 black;
   z-index: 55;
   margin-top: 80px;
