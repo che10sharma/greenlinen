@@ -50,7 +50,7 @@ body {
 .item-4,
 .item-5,
 .item-6,
-.item-7{
+.item-7 {
   position: absolute;
   display: block;
   font-size: 2.5rem;
@@ -94,7 +94,7 @@ body {
 
 @keyframes anim-1 {
   0%,2%{
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   2%,
@@ -113,7 +113,7 @@ body {
   0%,
   14.28%
    {
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   16.28%,
@@ -131,7 +131,7 @@ body {
 @keyframes anim-3 {
   0%,
   28.56% {
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   30.56%,
@@ -148,7 +148,7 @@ body {
 @keyframes anim-4 {
   0%,
   42.84% {
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   44.84%,
@@ -165,7 +165,7 @@ body {
 @keyframes anim-5 {
   0%,
   57.12% {
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   59.12%,
@@ -182,7 +182,7 @@ body {
 @keyframes anim-6 {
   0%,
   71.4% {
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   73.4%,
@@ -199,7 +199,7 @@ body {
 @keyframes anim-7 {
   0%,
   85.68% {
-    left: 0%;
+    right: +100;
     opacity: 0;
   }
   87.68%,
@@ -270,10 +270,6 @@ body {
 }
 .slide:nth-of-type(7) {
   background: url(img/7.jpeg);
-  background-size: cover;
-}
-.slide:nth-of-type(8) {
-  background: url(img/Neiman.png);
   background-size: cover;
 }
 .slide_buttons {
@@ -450,20 +446,24 @@ p {
   height: 100vh;
 }
 #home-right {
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(3px);
+  
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 9;
-  height: 50%;
-  width: 35%;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
   margin-left: 0;
   padding-left: 0;
 }
 #home-right p {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  color: gray;
+  text-shadow: 0 1px 0 black;
   z-index: 55;
-  margin-left: 0;
+  margin-top: 80px;
+  margin-left: 20px;
   padding-left: 0;
   padding: 0;
   overflow-x: hidden;
