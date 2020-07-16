@@ -238,8 +238,7 @@ body {
 }
 
 .slide:first-child {
-  background: url(img/2t.png);
-  background-size: cover;
+  display: contents;
 }
 
 .slide:nth-of-type(1) {
