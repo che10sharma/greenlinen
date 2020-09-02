@@ -656,14 +656,14 @@ p {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
   color: #777;
   text-transform: uppercase;
 }
 
 .card1 .details h2 span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   color: #00ff00;
   display: block;
   margin-top: 5px;
