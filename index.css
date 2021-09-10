@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+
 #loader {
   position: fixed;
   z-index: 999999;
@@ -213,7 +218,7 @@ body {
   }
 }
 .Mslider {
-  height: 100vh;
+  height: calc(100vw / 2);
   margin: 0 auto;
   max-width: 100%;
 }
@@ -242,40 +247,49 @@ body {
 }
 
 .slide:nth-of-type(1) {
-  background: url(img/1.jpg);
+  background: url(img/1tt.png);
   background-size: cover;
 }
 
 .slide:nth-of-type(2) {
-  background: url(img/2.jpg);
+  background: url(img/2tt.jpeg);
   background-size: cover;
 }
 
 .slide:nth-of-type(3) {
-  background: url(img/3.jpeg);
+  background: url(img/3tt.png);
   background-size: cover;
 }
 
 .slide:nth-of-type(4) {
-  background: url(img/4.jpeg);
+  background: url(img/4tt.png);
   background-size: cover;
 }
 .slide:nth-of-type(5) {
-  background: url(img/5.jpeg);
+  background: url(img/5tt.png);
   background-size: cover;
 }
 .slide:nth-of-type(6) {
-  background: url(img/6.jpeg);
+  background: url(img/6t.png);
   background-size: cover;
 }
 .slide:nth-of-type(7) {
-  background: url(img/7.jpeg);
+  background: url(img/7tt.png);
+  background-size: cover;
+}
+.slide:nth-of-type(8) {
+  background: url(img/8tt.jpeg);
+  background-size: cover;
+}
+.slide:nth-of-type(9) {
+  background: url(img/9t.jpg);
   background-size: cover;
 }
 .slide_buttons {
   left: 0;
   position: absolute;
   right: 0;
+  
   text-align: center;
   z-index: 99;
 }
@@ -413,7 +427,8 @@ h2 {
 p {
   margin: 0;
   padding: 1em 0;
-  font-family: Roboto;
+  /* font-family: Roboto; */
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
 .navbar-expand-lg {
@@ -443,7 +458,7 @@ p {
 }
 #home {
   overflow: hidden;
-  height: 100vh;
+  height: calc(100vw / 2);
 }
 #home-right {
   
@@ -561,6 +576,7 @@ p {
 }
 
 #manege {
+  background-color: #faf0e6;
   top: 0;
   left: 0;
   height: 100%;
@@ -648,14 +664,16 @@ p {
   margin: 0;
   padding: 0;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
   color: #777;
   text-transform: uppercase;
 }
 
 .card1 .details h2 span {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
+  font-family: 'Ubuntu', sans-serif;
   color: #00ff00;
   display: block;
   margin-top: 5px;
@@ -720,6 +738,9 @@ p {
   object-fit: contain;
   max-width: 200px;
   max-height: 120px;
+}
+#partners h2{
+  font-size: 2rem;
 }
 #wall .row {
   padding-bottom: 8px;
@@ -787,6 +808,7 @@ p.container {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
   margin-bottom: 10px !important;
+  text-shadow: #000 0.01px 0 20px;
 }
 #team p {
   text-align: center;
@@ -801,6 +823,11 @@ p.container {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+ #extra {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 #u-details {
   padding: 0 !important;
 }
@@ -858,6 +885,8 @@ p.container {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+  width: 100%;
+  height: 100%;
 }
 #about h2 {
   padding-bottom: 0 !important;
@@ -866,12 +895,11 @@ p.container {
   background: #fff;
   margin-bottom: 0px !important;
   padding-bottom: 0% !important;
+  align-self: center;
 }
 #chart img {
   object-fit: cover;
-  height: 100%;
   width: 100%;
-  padding-top: 70px;
 }
 #us {
   background: #f1f1f1;
@@ -913,6 +941,9 @@ p.container {
   top: 50%;
   left: 90%;
 }
+#buyer .row #slider-right {
+  align-self: center;
+}
 /* Footer */
 
 #main-footer {
@@ -944,6 +975,12 @@ p.container {
   #wall {
     background: linear-gradient(to right, #56ab2f, #a8e063);
   }
+   #extra {
+    display: none;
+  }
+  #partners h2{
+  font-size: 2rem;
+}
 }
 @media screen and (min-width: 768px) {
   #manege,
@@ -955,4 +992,5 @@ p.container {
   #wall h2 {
     padding-top: 80px;
   }
+ 
 }
