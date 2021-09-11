@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 #loader {
   position: fixed;
@@ -98,7 +95,8 @@ body {
 }
 
 @keyframes anim-1 {
-  0%,2%{
+  0%,
+  2% {
     right: +100;
     opacity: 0;
   }
@@ -116,8 +114,7 @@ body {
 
 @keyframes anim-2 {
   0%,
-  14.28%
-   {
+  14.28% {
     right: +100;
     opacity: 0;
   }
@@ -289,7 +286,7 @@ body {
   left: 0;
   position: absolute;
   right: 0;
-  
+  display: block;
   text-align: center;
   z-index: 99;
 }
@@ -354,8 +351,8 @@ a.slide_btn {
 }
 
 @media only screen and (max-width: 767px) {
-  .Mslider{
-	  height: 50vh;
+  .Mslider {
+    height: 50vh;
   }
   .previous_btn {
     left: 50px;
@@ -381,7 +378,7 @@ h1,
 h2 {
   margin: 0;
   padding: 1em 0;
-  font-family: Poppins;
+  font-family: "Ubuntu", sans-serif;
 }
 #btn {
   justify-content: center;
@@ -427,8 +424,8 @@ h2 {
 p {
   margin: 0;
   padding: 1em 0;
-  /* font-family: Roboto; */
-  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
   font-size: 18px;
 }
 .navbar-expand-lg {
@@ -461,7 +458,6 @@ p {
   height: calc(100vw / 2);
 }
 #home-right {
-  
   position: absolute;
   top: 0;
   left: 0;
@@ -582,8 +578,14 @@ p {
   height: 100%;
   width: 100%;
 }
-#founder-text {
+#manege #manege-row {
   padding-top: 70px;
+  padding-bottom: 30px;
+}
+#founder-left {
+  align-self: center;
+}
+#founder-text {
   font-size: 18px;
 }
 #founder .row {
@@ -591,11 +593,14 @@ p {
   margin-right: 15px;
 }
 #founder-img {
-  padding-top: 100px;
+  /* padding-top: 100px; */
+  justify-content: center;
+  align-self: center;
 }
 #founder-right {
   padding-top: 40px;
   padding-bottom: 40px;
+  align-self: center;
 }
 .card1 {
   position: relative;
@@ -665,7 +670,7 @@ p {
   padding: 0;
   font-weight: 600;
   font-size: 16px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #777;
   text-transform: uppercase;
 }
@@ -673,7 +678,7 @@ p {
 .card1 .details h2 span {
   font-weight: 500;
   font-size: 12px;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #00ff00;
   display: block;
   margin-top: 5px;
@@ -692,10 +697,10 @@ p {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-.highlight{
-	font-size: 20px; 
-	font-weight: 500;
-	background-color: #ceec5f;
+.highlight {
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #ceec5f;
 }
 #map-loc {
   max-height: 254px !important;
@@ -739,7 +744,7 @@ p {
   max-width: 200px;
   max-height: 120px;
 }
-#partners h2{
+#partners h2 {
   font-size: 2rem;
 }
 #wall .row {
@@ -750,6 +755,10 @@ p {
   margin-top: 20px;
   background: url(img/bg2.jpeg);
   background-size: cover;
+}
+#wall .row {
+  padding: 50px;
+  padding-top: 0px;
 }
 #wall .col-sm-2 {
   padding-left: 0;
@@ -823,11 +832,11 @@ p.container {
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
- #extra {
-    display: block;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+#extra {
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 #u-details {
   padding: 0 !important;
 }
@@ -854,7 +863,7 @@ p.container {
   padding-bottom: 0;
 }
 #manege p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #infa {
@@ -975,12 +984,15 @@ p.container {
   #wall {
     background: linear-gradient(to right, #56ab2f, #a8e063);
   }
-   #extra {
+  #extra {
     display: none;
   }
-  #partners h2{
-  font-size: 2rem;
-}
+  #partners h2 {
+    font-size: 2rem;
+  }
+  .slide_buttons {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   #manege,
@@ -992,5 +1004,4 @@ p.container {
   #wall h2 {
     padding-top: 80px;
   }
- 
 }
