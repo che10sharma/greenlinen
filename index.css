@@ -827,15 +827,18 @@ p.container {
   padding-bottom: 0 !important;
 }
 #team-bg {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
+#team-bg div {
+  padding: 10px;
+}
 #extra {
   display: block;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 #u-details {
   padding: 0 !important;
@@ -979,10 +982,10 @@ p.container {
     font-size: 18px;
   }
   #team {
-    background: linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #fafafa, #ffffff);
   }
   #wall {
-    background: linear-gradient(to right, #56ab2f, #a8e063);
+    background: linear-gradient(to right, #fafafa, #ffffff);
   }
   #extra {
     display: none;
